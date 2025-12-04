@@ -1,0 +1,14 @@
+{
+  "name": "potato-proxy",
+  "version": "1.0.0",
+  "description": "Custom proxy with Wisp + DuckDuckGo search",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.0.3",
+    "express": "^4.18.2"
+  }
+}
